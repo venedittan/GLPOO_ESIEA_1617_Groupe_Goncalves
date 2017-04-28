@@ -7,3 +7,8 @@ Groupe :
 ROUSSEL Hanselot / Hanzhollow
 GONCALVES Matthias / Caelvanost
 FERREOL Tom / ferreolt
+SEGOVIA Daniel
+MAILLOT Daniel
+VENEDITTAN Vinoth / venedittan
+MONTIGNY Alexandre
+ANDRIANANTENAINA Tahiri
