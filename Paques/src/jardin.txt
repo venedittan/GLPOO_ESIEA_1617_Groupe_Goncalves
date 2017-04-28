@@ -1,10 +1,14 @@
 # jardin(J) largeur hauteur
-J 15 8
+J 15 10
 # chocolat(C) position(colonne-ligne) nombre
 C 4-9 1
-C 1-4 3
+C 1-4 6
 C 5-2 5
+C 9-2 4
+C 7-8 2
 # rocher(R) position(colonne-ligne)
 R 5-6
 R 7-4
 R 5-1
+R 9-8
+R 8-4

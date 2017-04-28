@@ -1,5 +1,6 @@
 package IHM;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 
@@ -19,16 +20,26 @@ public class Deplacement implements Runnable{
 		for(int i=0; i<enfants.get(0).getInstructions().size();i++)
 		{
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(500);
+				j.deplacerEnfant(i);
+				j.updateJardin();
 			} catch (InterruptedException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
-			j.deplacerEnfant(i);
-			j.updateJardin();
+			
 		}
-		j.placerEnfant();
-		j.updateJardin();
+		try {
+			j.placerEnfant();
+			j.updateJardin();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		new Result(j);
 		
 		
