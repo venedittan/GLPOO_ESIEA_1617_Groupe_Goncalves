@@ -58,8 +58,8 @@ public class jardin extends JFrame{
 		rochers = new ArrayList <Rocher>();
 		oeufs = new ArrayList <Oeuf>();
 		enfants = new ArrayList <Enfant>();
-		getFile("F:/Workspace/Paques/jardin.txt", jardinConfig);
-		getFile("F:/Workspace/Paques/enfant.txt", enfantConfig);
+		getFile("src/jardin.txt", jardinConfig);
+		getFile("src/enfant.txt", enfantConfig);
 		trierJardin();
 		trierEnfant();
 		draw();

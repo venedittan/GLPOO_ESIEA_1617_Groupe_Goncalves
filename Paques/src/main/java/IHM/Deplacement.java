@@ -19,7 +19,7 @@ public class Deplacement implements Runnable{
 		for(int i=0; i<enfants.get(0).getInstructions().size();i++)
 		{
 			try {
-				Thread.sleep(10);
+				Thread.sleep(1000);
 			} catch (InterruptedException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
