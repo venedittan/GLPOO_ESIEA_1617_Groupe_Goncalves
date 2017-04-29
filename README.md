@@ -11,4 +11,4 @@ SEGOVIA Daniel
 MAILLOT Daniel
 VENEDITTAN Vinoth / venedittan
 MONTIGNY Alexandre
-ANDRIANANTENAINA Tahiri
+ANDRIANANTENAINA Tahiry / ryhita
